@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+
+$font: "Karla", sans-serif;
+$primary-color: #3d3d3d;
+$button-primary: #2b56c2;
+$secondary-color: #aa5237;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font;
+  color: $primary-color;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:active {
+    color: $secondary-color
+  }
+  // &:hover {
+  //   color: red;
+  // }
+}
+
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px,0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  line-height: 2.7;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow-y: auto;
+}
+
+.sample {
+  background: $button-primary;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.jumbotron {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  height: 23vh;
+  padding: 40px;
+  line-height: 2;
+}
